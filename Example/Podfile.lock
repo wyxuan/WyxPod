@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WyxPod (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WyxPod (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WyxPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WyxPod: 00cc7845f62b646c836ac3a000e7ea345bbd15fb
+
+PODFILE CHECKSUM: 0c493c51ebb66c0076532c9c61371235b8f7b759
+
+COCOAPODS: 1.7.5

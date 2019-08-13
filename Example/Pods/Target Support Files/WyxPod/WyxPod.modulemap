@@ -1,0 +1,6 @@
+framework module WyxPod {
+  umbrella header "WyxPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
